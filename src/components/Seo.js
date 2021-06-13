@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 
 export default function SEO({
-	description = 'Estudio ingeniería de software, apasionado por aprender cada día un poco más de desarrollo web',
+	description = 'Me llamo Kioshi Okamoto, estudio ingeniería de software. Apasionado por aprender cada día un poco más de desarrollo web',
 	author = 'Kioshi Okamoto',
 	meta,
 	title = 'Kioshi Okamoto - Portafolio',
@@ -48,6 +48,7 @@ export default function SEO({
 			{metaData.map(({ name, content }, i) => (
 				<meta key={i} name={name} content={content} />
 			))}
+			<meta name="keywords" content="software,Kioshi Okamoto,unmsm,javascript,programming" />
 		</Head>
 	);
 }
