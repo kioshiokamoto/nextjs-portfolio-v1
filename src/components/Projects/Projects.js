@@ -41,12 +41,12 @@ const Projects = () => (
 					</div>
 					<UtilityList>
 						{source && (
-							<ExternalLinks href={source} target="_blank" rel="noreferrer">
+							<ExternalLinks href={source} target="_blank" rel="noreferrer" aria-label={title}>
 								Código
 							</ExternalLinks>
 						)}
 						{visit && (
-							<ExternalLinks href={visit} target="_blank" rel="noreferrer">
+							<ExternalLinks href={visit} target="_blank" rel="noreferrer" aria-label={title}>
 								Vista previa
 							</ExternalLinks>
 						)}

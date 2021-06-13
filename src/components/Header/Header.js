@@ -15,21 +15,17 @@ const Header = () => (
 			</Link>
 		</Div1>
 		<Div2>
-			<li>
-				<Link href="#projects">
-					<NavLink>Proyectos</NavLink>
-				</Link>
-			</li>
-			<li>
-				<Link href="#tech">
-					<NavLink>Tecnologías</NavLink>
-				</Link>
-			</li>
-			<li>
-				<Link href="#about">
-					<NavLink>Acerca de mí</NavLink>
-				</Link>
-			</li>
+			<Link href="#projects">
+				<NavLink>Proyectos</NavLink>
+			</Link>
+
+			<Link href="#tech">
+				<NavLink>Tecnologías</NavLink>
+			</Link>
+
+			<Link href="#about">
+				<NavLink>Acerca de mí</NavLink>
+			</Link>
 		</Div2>
 		<Div3>
 			<SocialIcons href="https://github.com/kioshiokamoto">

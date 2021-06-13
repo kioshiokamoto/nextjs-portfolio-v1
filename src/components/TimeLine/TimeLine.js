@@ -116,6 +116,7 @@ const Timeline = () => {
 						active={activeItem}
 						onClick={(e) => handleClick(e, idx)}
 						type="button"
+						aria-label={item.text}
 					>
 						<CarouselButtonDot active={activeItem} />
 					</CarouselButton>
