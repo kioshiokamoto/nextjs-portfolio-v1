@@ -39,7 +39,7 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-	{ year: 2018, text: 'Inicio de universidad en San Marcos' },
+	{ year: 2018, text: 'Inicio carrera de ingeniería de software en la universidad San Marcos' },
 	{ year: 2019, text: 'Trabajé como soporte TI en Coredise' },
 	{ year: 2019, text: 'Inicio de desarrollo en Javascript' },
 	{ year: 2020, text: 'Desarrollé proyecto web para un evento de capacitaciones' },

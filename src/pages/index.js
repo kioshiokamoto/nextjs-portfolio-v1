@@ -6,10 +6,12 @@ import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
-
+import Head from 'next/head';
+import SEO from '../components/seo';
 const Home = () => {
 	return (
 		<Layout>
+			<SEO />
 			<Section grid>
 				<Hero />
 				<BgAnimation />
