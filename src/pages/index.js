@@ -7,7 +7,7 @@ import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 import Head from 'next/head';
-import SEO from '../components/seo';
+import SEO from '../components/Seo';
 const Home = () => {
 	return (
 		<Layout>
