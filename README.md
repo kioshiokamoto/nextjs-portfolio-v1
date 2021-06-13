@@ -37,3 +37,7 @@ Iniciar cliente
 ```bash
   npm run dev
 ```
+
+### Referencia de proyecto:
+
+[javascript mastery](https://www.youtube.com/channel/UCmXmlB4-HJytD7wek0Uo97A)
