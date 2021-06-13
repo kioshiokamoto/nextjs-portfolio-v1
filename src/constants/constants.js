@@ -31,7 +31,7 @@ export const projects = [
 		title: 'E-commerce',
 		description:
 			'Aplicacion web e-commerce permite agregar productos a carrito de compra y pagar a través de una pasarela de pagos',
-		image: '/images/4.png',
+		image: '/images/4.PNG',
 		tags: ['React', 'MaterialUI', 'Commerce.js', 'Stripe'],
 		source: 'https://github.com/kioshiokamoto/React-e-commerce',
 		id: 3,
