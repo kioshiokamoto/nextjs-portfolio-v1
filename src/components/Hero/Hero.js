@@ -7,7 +7,7 @@ import { LeftSection } from './HeroStyles';
 const Hero = (props) => (
 	<Section row nopadding>
 		<LeftSection>
-			<SectionTitle main center>
+			<SectionTitle main={true} center={true}>
 				Bienvenido a <br />
 				mi portafolio personal
 			</SectionTitle>

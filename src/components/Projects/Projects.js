@@ -17,16 +17,16 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { projects } from '../../constants/constants';
 import Image from 'next/image';
 const Projects = () => (
-	<Section nopadding id="projects">
+	<Section nopadding={true} id="projects">
 		<SectionDivider />
-		<SectionTitle main>Proyectos</SectionTitle>
+		<SectionTitle main={true}>Proyectos</SectionTitle>
 		<GridContainer>
 			{projects.map(({ id, image, title, description, source = '', visit = '', tags }) => (
 				<BlogCard key={id}>
 					<Image src={image} width={400} height={225} objectFit="cover" alt={title} />
 
 					<TitleContent>
-						<HeaderThree title>{title}</HeaderThree>
+						<HeaderThree title={1}>{title}</HeaderThree>
 						<Hr />
 					</TitleContent>
 					<CardInfo>{description}</CardInfo>
