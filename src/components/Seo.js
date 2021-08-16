@@ -5,7 +5,7 @@ export default function SEO({
 	description = 'Me llamo Kioshi Okamoto, estudio ingeniería de software. Apasionado por aprender cada día un poco más de desarrollo web',
 	author = 'Kioshi Okamoto',
 	meta,
-	title = 'Kioshi Okamoto - Portafolio',
+	title = 'Kioshi Okamoto',
 }) {
 	const metaData = [
 		{
