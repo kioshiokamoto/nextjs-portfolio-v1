@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.kioshi-okamoto.com/api/sitemap
+Sitemap: https://kioshi-okamoto.com/api/sitemap
